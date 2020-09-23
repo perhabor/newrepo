@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum and multiples of intrgara</title>
+</head>
+
+<body>
+    <script>
+        let num = parseInt(prompt("Please enter a positive number"));
+        num = [2, 4, 6, 8, 10];
+        let s = 0;
+        let p = 1;
+        let i;
+        for (i = 0; i < num.length; i += 1) {
+            s += num[i];
+            p *= num[i];
+        }
+        document.write(`Sum : ${s} Product :  ${p}`);
+    </script>
+</body>
+
+</html>
